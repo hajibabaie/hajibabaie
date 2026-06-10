@@ -1,6 +1,8 @@
-# Mohammad Hajibabaie
-
-**Operations Research · Combinatorial Optimization · Python**
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg">
+  <img alt="Mohammad Hajibabaie — Operations Research · Combinatorial Optimization · Python" src="banner-light.svg" width="100%">
+</picture>
 
 PhD candidate at TU Clausthal, finishing a dissertation on the **Vehicle Platooning Problem**: coordinating truck routes and schedules so vehicles form fuel-saving convoys on real road networks. I work on both sides of the methodology — exact optimization (MILP with Gurobi) and metaheuristics — and benchmark them against each other at scale. Seven years of university teaching and thesis supervision alongside the research.
 
@@ -24,7 +26,17 @@ What I care about: clean mathematical models, reproducible experiments, and code
 
 ## Stack
 
-Python (NumPy, pandas, matplotlib, NetworkX) · Gurobi · CPLEX · HiGHS · SCIP · TensorFlow · Neo4j · Git · Linux
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Gurobi](https://img.shields.io/badge/Gurobi-DD2113?style=flat-square)
+![CPLEX](https://img.shields.io/badge/CPLEX-0F62FE?style=flat-square)
+![HiGHS](https://img.shields.io/badge/HiGHS-6E40C9?style=flat-square)
+![SCIP](https://img.shields.io/badge/SCIP-0E7490?style=flat-square)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![Neo4j](https://img.shields.io/badge/Neo4j-018BFF?style=flat-square&logo=neo4j&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-2D333B?style=flat-square&logo=linux&logoColor=white)
 
 ## Contact
 
