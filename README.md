@@ -19,6 +19,7 @@ What I care about: clean mathematical models, reproducible experiments, and code
 | Repository | Summary |
 |---|---|
 | [multi-objective-vehicle-platooning-problem](https://github.com/hajibabaie/multi-objective-vehicle-platooning-problem) | Joint route and speed selection for truck platooning — six multi-objective metaheuristics benchmarked against the exact Pareto front of a MILP solved with Gurobi. The core problem of my PhD. |
+| [multi-objective-scheduling](https://github.com/hajibabaie/multi-objective-scheduling) | Energy-aware tri-objective flow-shop & job-shop scheduling (makespan, tardiness, energy) on the Taillard benchmarks — NSGA-II, MOEA/D, and MOPSO from scratch with adaptive operator selection, Dockerized PostgreSQL experiment tracking, and a full nonparametric statistical comparison. |
 | [stochastic-facility-location](https://github.com/hajibabaie/stochastic-facility-location) | Two-stage stochastic capacitated facility location with SAA, a service-level chance constraint, and Benders decomposition. Solver-agnostic backends (HiGHS / SCIP / Gurobi). |
 | [multi-objective-optimization](https://github.com/hajibabaie/multi-objective-optimization) | NSGA-II, MOPSO, SPEA2, PESA-II, and MOEA/D implemented from scratch and compared on benchmark problems. |
 | [genetic-algorithm](https://github.com/hajibabaie/genetic-algorithm) | Problem-agnostic GA engine with pluggable encodings (binary, real, permutation, mixed), applied to classic OR problems. |
@@ -33,6 +34,8 @@ What I care about: clean mathematical models, reproducible experiments, and code
 ![SCIP](https://img.shields.io/badge/SCIP-0E7490?style=flat-square)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![Neo4j](https://img.shields.io/badge/Neo4j-018BFF?style=flat-square&logo=neo4j&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
