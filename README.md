@@ -25,6 +25,12 @@ What I care about: clean mathematical models, reproducible experiments, and code
 | [genetic-algorithm](https://github.com/hajibabaie/genetic-algorithm) | Problem-agnostic GA engine with pluggable encodings (binary, real, permutation, mixed), applied to classic OR problems. |
 | [ant-colony-optimization](https://github.com/hajibabaie/ant-colony-optimization) | ACO for discrete and continuous optimization on a shared metaheuristic core. |
 
+## Optimization on Saturdays
+
+All 222 Harzer Wandernadel hiking stamps, packed into 78 one-day loop hikes by [harz-wanderung](https://github.com/hajibabaie/harz-wanderung): shortest-path distances on the OpenStreetMap footpath network, ascent from the Copernicus DEM, constraint-aware clustering, and an exact closed-loop TSP from the nearest parking spot for every trip.
+
+[![78 Saturday hiking loops across the Harz, one colour per trip](https://raw.githubusercontent.com/hajibabaie/harz-wanderung/main/docs/map.png)](https://github.com/hajibabaie/harz-wanderung)
+
 ## Stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
