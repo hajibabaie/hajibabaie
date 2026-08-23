@@ -29,7 +29,7 @@ What I care about: clean mathematical models, reproducible experiments, and code
 
 All 222 Harzer Wandernadel hiking stamps, packed into about 70 one-day loop hikes of 10–20 km by [harz-wanderung](https://github.com/hajibabaie/harz-wanderung): shortest-path distances on the OpenStreetMap footpath network, ascent from the Copernicus DEM, constraint-aware clustering, and an exact closed-loop TSP from the nearest parking spot for every trip.
 
-[![78 Saturday hiking loops across the Harz, one colour per trip](https://raw.githubusercontent.com/hajibabaie/harz-wanderung/main/docs/map.png)](https://github.com/hajibabaie/harz-wanderung)
+[![Saturday hiking loops across the Harz, one colour per trip](https://raw.githubusercontent.com/hajibabaie/harz-wanderung/main/docs/map.png)](https://github.com/hajibabaie/harz-wanderung)
 
 ## Stack
 
