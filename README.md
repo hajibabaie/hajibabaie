@@ -1,25 +1,26 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="banner-light.svg">
-  <img alt="Mohammad Hajibabaie — Operations Research · Combinatorial Optimization · Python" src="banner-light.svg" width="100%">
+  <img alt="Mohammad Hajibabaie, Operations Research, Combinatorial Optimization, Python" src="banner-light.svg" width="100%">
 </picture>
 
-PhD candidate at TU Clausthal, finishing a dissertation on the **Vehicle Platooning Problem**: coordinating truck routes and schedules so vehicles form fuel-saving convoys on real road networks. I work on both sides of the methodology — exact optimization (MILP with Gurobi) and metaheuristics — and benchmark them against each other at scale. Seven years of university teaching and thesis supervision alongside the research.
+PhD candidate at TU Clausthal, finishing a dissertation on the **Vehicle Platooning Problem**: coordinating truck routes and schedules so vehicles form fuel-saving convoys on real road networks. I work on both sides of the methodology, exact optimization (MILP with Gurobi) and metaheuristics, and benchmark them against each other at scale. Beside the research, I have seven years of university teaching and thesis supervision.
 
-What I care about: clean mathematical models, reproducible experiments, and code that separates the problem from the algorithm.
+I care about clean mathematical models, reproducible experiments, and code that keeps the problem apart from the algorithm.
 
 ## Methods
 
-- **Exact optimization** — MILP modeling, Benders decomposition, two-stage stochastic programming (SAA), chance constraints · Gurobi, CPLEX, HiGHS, SCIP
-- **Metaheuristics** — GA, SA, PSO, ACO, CMA-ES; multi-objective: NSGA-II, MOPSO, SPEA2, PESA-II, MOEA/D — built as reusable, problem-agnostic engines
-- **ML × OR** — deep learning foundations (DeepLearning.AI specialization); currently building LLM-assisted optimization workflows
+- **Exact optimization:** MILP modeling, Benders decomposition, two-stage stochastic programming (SAA), chance constraints · Gurobi, CPLEX, HiGHS, SCIP
+- **Metaheuristics:** GA, SA, PSO, ACO, CMA-ES; multi-objective: NSGA-II, MOPSO, SPEA2, PESA-II, MOEA/D, built as reusable, problem-agnostic engines
+- **Supply chain:** inventory routing on real e-commerce orders, stochastic facility location, vehicle routing, shop scheduling
 
 ## Selected repositories
 
 | Repository | Summary |
 |---|---|
-| [multi-objective-vehicle-platooning-problem](https://github.com/hajibabaie/multi-objective-vehicle-platooning-problem) | Joint route and speed selection for truck platooning — six multi-objective metaheuristics benchmarked against the exact Pareto front of a MILP solved with Gurobi. The core problem of my PhD. |
-| [multi-objective-scheduling](https://github.com/hajibabaie/multi-objective-scheduling) | Energy-aware tri-objective flow-shop & job-shop scheduling (makespan, tardiness, energy) on the Taillard benchmarks — NSGA-II, MOEA/D, and MOPSO from scratch with adaptive operator selection, Dockerized PostgreSQL experiment tracking, and a full nonparametric statistical comparison. |
+| [two-echelon-inventory-routing](https://github.com/hajibabaie/two-echelon-inventory-routing) | Warehouse, hubs and van routes on real Olist orders in Sao Paulo with OpenStreetMap road distances. Greedy rule, exact MILP (Gurobi), ALNS and a matheuristic. Gurobi proves the optimum on all 12 small instances and the ALNS reaches it in 120 of 120 runs. Paired Wilcoxon tests on the larger instances. |
+| [multi-objective-vehicle-platooning-problem](https://github.com/hajibabaie/multi-objective-vehicle-platooning-problem) | Joint route and speed selection for truck platooning. Six multi-objective metaheuristics benchmarked against the exact Pareto front of a MILP solved with Gurobi. The core problem of my PhD. |
+| [multi-objective-scheduling](https://github.com/hajibabaie/multi-objective-scheduling) | Energy-aware tri-objective flow-shop & job-shop scheduling (makespan, tardiness, energy) on the Taillard benchmarks. NSGA-II, MOEA/D, and MOPSO from scratch with adaptive operator selection, Dockerized PostgreSQL experiment tracking, and a full nonparametric statistical comparison. |
 | [stochastic-facility-location](https://github.com/hajibabaie/stochastic-facility-location) | Two-stage stochastic capacitated facility location with SAA, a service-level chance constraint, and Benders decomposition. Solver-agnostic backends (HiGHS / SCIP / Gurobi). |
 | [multi-objective-optimization](https://github.com/hajibabaie/multi-objective-optimization) | NSGA-II, MOPSO, SPEA2, PESA-II, and MOEA/D implemented from scratch and compared on benchmark problems. |
 | [genetic-algorithm](https://github.com/hajibabaie/genetic-algorithm) | Problem-agnostic GA engine with pluggable encodings (binary, real, permutation, mixed), applied to classic OR problems. |
@@ -27,9 +28,9 @@ What I care about: clean mathematical models, reproducible experiments, and code
 
 ## Optimization on Saturdays
 
-All 222 Harzer Wandernadel hiking stamps, packed into about 70 one-day loop hikes of 10–20 km by [harz-wanderung](https://github.com/hajibabaie/harz-wanderung): shortest-path distances on the OpenStreetMap footpath network, ascent from the Copernicus DEM, constraint-aware clustering, and an exact closed-loop TSP from the nearest parking spot for every trip.
+All 222 Harzer Wandernadel hiking stamps, packed into about 70 one-day loop hikes of 10 to 20 km by [harz-wanderung](https://github.com/hajibabaie/harz-wanderung): shortest-path distances on the OpenStreetMap footpath network, ascent from the Copernicus DEM, constraint-aware clustering, and an exact closed-loop TSP from the nearest parking spot for every trip.
 
-[![Saturday hiking loops across the Harz, one colour per trip](https://raw.githubusercontent.com/hajibabaie/harz-wanderung/main/docs/map.png)](https://github.com/hajibabaie/harz-wanderung)
+[![Saturday hiking loops across the Harz, one color per trip](https://raw.githubusercontent.com/hajibabaie/harz-wanderung/main/docs/map.png)](https://github.com/hajibabaie/harz-wanderung)
 
 ## Stack
 
@@ -49,4 +50,4 @@ All 222 Harzer Wandernadel hiking stamps, packed into about 70 one-day loop hike
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/mo-hajibabaie) · Germany · Open to OR Scientist / Applied Scientist roles
+[LinkedIn](https://www.linkedin.com/in/mo-hajibabaie) · Germany · Open to roles in supply-chain planning and optimization
