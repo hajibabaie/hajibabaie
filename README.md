@@ -50,4 +50,4 @@ All 222 Harzer Wandernadel hiking stamps, packed into about 70 one-day loop hike
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/mo-hajibabaie) · Germany · Open to roles in supply-chain planning and optimization
+[LinkedIn](https://www.linkedin.com/in/mo-hajibabaie) · Germany 
